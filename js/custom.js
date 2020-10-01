@@ -162,11 +162,11 @@
         /* ----------------------------------------------------------- */
 
 		function stop_videos() {
-			var video = document.getElementById("video");
-			if (video.paused !== true && video.ended !== true) {
-				video.pause();
-			}
-			$('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+			// var video = document.getElementById("video");
+			// if (video.paused !== true && video.ended !== true) {
+			// 	video.pause();
+			// }
+			// $('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
 		}
 		
 		/* ----------------------------------------------------------- */

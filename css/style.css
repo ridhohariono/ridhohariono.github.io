@@ -1047,7 +1047,7 @@ main#main {
 }
 
 body.fullscreendark #main>section#home {
-  background-image: url('../img/1.jpeg');
+  background-image: url('../img/bg.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
